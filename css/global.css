@@ -2,6 +2,7 @@ body {
     font-family: 'Fira Sans', Arial, sans-serif;
     margin: 0px;
     color: #141414;
+    background:  rgb(238, 238, 238);
 }
 
 h1, h2, h3, p {
@@ -18,4 +19,16 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.footer {
+    background-color: #0f2652;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
 }
